@@ -13,7 +13,7 @@
       href="style.css"
       media="screen">
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <img class="header-img" src="./eisenhower-matrix.jpg" alt="Image of Eisenhower matrix">
       <a
@@ -23,7 +23,7 @@
     </header>
     <main class="main-page">
       <section id="add-task-section">
-        <h3>Add Item</h3>
+        <h3 class="title">Add Item</h3>
         <div class="task-wrapper">
           <input
             id="add-new-task"
@@ -33,7 +33,7 @@
         </div>
       </section>
       <section>
-        <h3>Todo</h3>
+        <h3 class="title">Todo</h3>
         <ul class="task-list" id="incompleted-tasks">
           <li class="list-item">
           <input class="checkbox" type="checkbox">
@@ -41,7 +41,7 @@
           <input class="task" type="text">
           <button class="button-edit">Edit</button>
           <button class="button-delete">
-              <img src="./remove.svg" alt="Image for removing item">
+              <img class="image-delete" src="./remove.svg" alt="Image for removing item">
             </button>
           </li>
           <li class="list-item edit-mode">
@@ -53,13 +53,13 @@
               class="task">
             <button class="button-edit">Save</button>
             <button class="button-delete">
-              <img src="./remove.svg" alt="Image for removing item">
+              <img class="image-delete" src="./remove.svg" alt="Image for removing item">
             </button>
           </li>
         </ul>
       </section>
       <section>
-        <h3>Completed</h3>
+        <h3 class="title">Completed</h3>
         <ul class="task-list" id="completed-tasks">
           <li class="list-item">
             <input class="checkbox" type="checkbox" checked>
@@ -67,7 +67,7 @@
             <input type="text" class="task">
             <button class="button-edit">Edit</button>
             <button class="button-delete">
-              <img src="./remove.svg" alt="Image for removing item">
+              <img class="image-delete" src="./remove.svg" alt="Image for removing item">
             </button>
           </li>
         </ul>
